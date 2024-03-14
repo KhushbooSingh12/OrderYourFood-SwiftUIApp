@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60037D92BA34F6C006C8462 /* OderYourFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60037D82BA34F6C006C8462 /* OderYourFoodApp.swift */; };
+		C60037DB2BA34F6C006C8462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60037DA2BA34F6C006C8462 /* ContentView.swift */; };
+		C60037DD2BA34F6D006C8462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60037DC2BA34F6D006C8462 /* Assets.xcassets */; };
+		C60037E02BA34F6D006C8462 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60037DF2BA34F6D006C8462 /* Preview Assets.xcassets */; };
+		C60037E22BA34F6D006C8462 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60037E12BA34F6D006C8462 /* Persistence.swift */; };
+		C60037E52BA34F6D006C8462 /* OderYourFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C60037E32BA34F6D006C8462 /* OderYourFood.xcdatamodeld */; };
+		C60037EF2BA34F6D006C8462 /* OderYourFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60037EE2BA34F6D006C8462 /* OderYourFoodTests.swift */; };
+		C60037F92BA34F6D006C8462 /* OderYourFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60037F82BA34F6D006C8462 /* OderYourFoodUITests.swift */; };
+		C60037FB2BA34F6D006C8462 /* OderYourFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60037FA2BA34F6D006C8462 /* OderYourFoodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60037EB2BA34F6D006C8462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60037CD2BA34F6C006C8462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60037D42BA34F6C006C8462;
+			remoteInfo = OderYourFood;
+		};
+		C60037F52BA34F6D006C8462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60037CD2BA34F6C006C8462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60037D42BA34F6C006C8462;
+			remoteInfo = OderYourFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60037D52BA34F6C006C8462 /* OderYourFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OderYourFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60037D82BA34F6C006C8462 /* OderYourFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderYourFoodApp.swift; sourceTree = "<group>"; };
+		C60037DA2BA34F6C006C8462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C60037DC2BA34F6D006C8462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C60037DF2BA34F6D006C8462 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C60037E12BA34F6D006C8462 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C60037E42BA34F6D006C8462 /* OderYourFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OderYourFood.xcdatamodel; sourceTree = "<group>"; };
+		C60037EA2BA34F6D006C8462 /* OderYourFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OderYourFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60037EE2BA34F6D006C8462 /* OderYourFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderYourFoodTests.swift; sourceTree = "<group>"; };
+		C60037F42BA34F6D006C8462 /* OderYourFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OderYourFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60037F82BA34F6D006C8462 /* OderYourFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderYourFoodUITests.swift; sourceTree = "<group>"; };
+		C60037FA2BA34F6D006C8462 /* OderYourFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderYourFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60037D22BA34F6C006C8462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60037E72BA34F6D006C8462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60037F12BA34F6D006C8462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60037CC2BA34F6C006C8462 = {
+			isa = PBXGroup;
+			children = (
+				C60037D72BA34F6C006C8462 /* OderYourFood */,
+				C60037ED2BA34F6D006C8462 /* OderYourFoodTests */,
+				C60037F72BA34F6D006C8462 /* OderYourFoodUITests */,
+				C60037D62BA34F6C006C8462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C60037D62BA34F6C006C8462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60037D52BA34F6C006C8462 /* OderYourFood.app */,
+				C60037EA2BA34F6D006C8462 /* OderYourFoodTests.xctest */,
+				C60037F42BA34F6D006C8462 /* OderYourFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60037D72BA34F6C006C8462 /* OderYourFood */ = {
+			isa = PBXGroup;
+			children = (
+				C60037D82BA34F6C006C8462 /* OderYourFoodApp.swift */,
+				C60037DA2BA34F6C006C8462 /* ContentView.swift */,
+				C60037DC2BA34F6D006C8462 /* Assets.xcassets */,
+				C60037E12BA34F6D006C8462 /* Persistence.swift */,
+				C60037E32BA34F6D006C8462 /* OderYourFood.xcdatamodeld */,
+				C60037DE2BA34F6D006C8462 /* Preview Content */,
+			);
+			path = OderYourFood;
+			sourceTree = "<group>";
+		};
+		C60037DE2BA34F6D006C8462 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C60037DF2BA34F6D006C8462 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C60037ED2BA34F6D006C8462 /* OderYourFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				C60037EE2BA34F6D006C8462 /* OderYourFoodTests.swift */,
+			);
+			path = OderYourFoodTests;
+			sourceTree = "<group>";
+		};
+		C60037F72BA34F6D006C8462 /* OderYourFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C60037F82BA34F6D006C8462 /* OderYourFoodUITests.swift */,
+				C60037FA2BA34F6D006C8462 /* OderYourFoodUITestsLaunchTests.swift */,
+			);
+			path = OderYourFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60037D42BA34F6C006C8462 /* OderYourFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60037FE2BA34F6D006C8462 /* Build configuration list for PBXNativeTarget "OderYourFood" */;
+			buildPhases = (
+				C60037D12BA34F6C006C8462 /* Sources */,
+				C60037D22BA34F6C006C8462 /* Frameworks */,
+				C60037D32BA34F6C006C8462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OderYourFood;
+			productName = OderYourFood;
+			productReference = C60037D52BA34F6C006C8462 /* OderYourFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60037E92BA34F6D006C8462 /* OderYourFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60038012BA34F6D006C8462 /* Build configuration list for PBXNativeTarget "OderYourFoodTests" */;
+			buildPhases = (
+				C60037E62BA34F6D006C8462 /* Sources */,
+				C60037E72BA34F6D006C8462 /* Frameworks */,
+				C60037E82BA34F6D006C8462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60037EC2BA34F6D006C8462 /* PBXTargetDependency */,
+			);
+			name = OderYourFoodTests;
+			productName = OderYourFoodTests;
+			productReference = C60037EA2BA34F6D006C8462 /* OderYourFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C60037F32BA34F6D006C8462 /* OderYourFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60038042BA34F6D006C8462 /* Build configuration list for PBXNativeTarget "OderYourFoodUITests" */;
+			buildPhases = (
+				C60037F02BA34F6D006C8462 /* Sources */,
+				C60037F12BA34F6D006C8462 /* Frameworks */,
+				C60037F22BA34F6D006C8462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60037F62BA34F6D006C8462 /* PBXTargetDependency */,
+			);
+			name = OderYourFoodUITests;
+			productName = OderYourFoodUITests;
+			productReference = C60037F42BA34F6D006C8462 /* OderYourFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60037CD2BA34F6C006C8462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					C60037D42BA34F6C006C8462 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					C60037E92BA34F6D006C8462 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C60037D42BA34F6C006C8462;
+					};
+					C60037F32BA34F6D006C8462 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C60037D42BA34F6C006C8462;
+					};
+				};
+			};
+			buildConfigurationList = C60037D02BA34F6C006C8462 /* Build configuration list for PBXProject "OderYourFood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C60037CC2BA34F6C006C8462;
+			productRefGroup = C60037D62BA34F6C006C8462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60037D42BA34F6C006C8462 /* OderYourFood */,
+				C60037E92BA34F6D006C8462 /* OderYourFoodTests */,
+				C60037F32BA34F6D006C8462 /* OderYourFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60037D32BA34F6C006C8462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60037E02BA34F6D006C8462 /* Preview Assets.xcassets in Resources */,
+				C60037DD2BA34F6D006C8462 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60037E82BA34F6D006C8462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60037F22BA34F6D006C8462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60037D12BA34F6C006C8462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60037E22BA34F6D006C8462 /* Persistence.swift in Sources */,
+				C60037DB2BA34F6C006C8462 /* ContentView.swift in Sources */,
+				C60037E52BA34F6D006C8462 /* OderYourFood.xcdatamodeld in Sources */,
+				C60037D92BA34F6C006C8462 /* OderYourFoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60037E62BA34F6D006C8462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60037EF2BA34F6D006C8462 /* OderYourFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60037F02BA34F6D006C8462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60037F92BA34F6D006C8462 /* OderYourFoodUITests.swift in Sources */,
+				C60037FB2BA34F6D006C8462 /* OderYourFoodUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C60037EC2BA34F6D006C8462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60037D42BA34F6C006C8462 /* OderYourFood */;
+			targetProxy = C60037EB2BA34F6D006C8462 /* PBXContainerItemProxy */;
+		};
+		C60037F62BA34F6D006C8462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60037D42BA34F6C006C8462 /* OderYourFood */;
+			targetProxy = C60037F52BA34F6D006C8462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C60037FC2BA34F6D006C8462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C60037FD2BA34F6D006C8462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60037FF2BA34F6D006C8462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OderYourFood/Preview Content\"";
+				DEVELOPMENT_TEAM = G249CYGWDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OderYourFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C60038002BA34F6D006C8462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OderYourFood/Preview Content\"";
+				DEVELOPMENT_TEAM = G249CYGWDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OderYourFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C60038022BA34F6D006C8462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G249CYGWDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OderYourFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OderYourFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OderYourFood";
+			};
+			name = Debug;
+		};
+		C60038032BA34F6D006C8462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G249CYGWDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OderYourFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OderYourFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OderYourFood";
+			};
+			name = Release;
+		};
+		C60038052BA34F6D006C8462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G249CYGWDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OderYourFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OderYourFood;
+			};
+			name = Debug;
+		};
+		C60038062BA34F6D006C8462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G249CYGWDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OderYourFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OderYourFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60037D02BA34F6C006C8462 /* Build configuration list for PBXProject "OderYourFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60037FC2BA34F6D006C8462 /* Debug */,
+				C60037FD2BA34F6D006C8462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60037FE2BA34F6D006C8462 /* Build configuration list for PBXNativeTarget "OderYourFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60037FF2BA34F6D006C8462 /* Debug */,
+				C60038002BA34F6D006C8462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60038012BA34F6D006C8462 /* Build configuration list for PBXNativeTarget "OderYourFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60038022BA34F6D006C8462 /* Debug */,
+				C60038032BA34F6D006C8462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60038042BA34F6D006C8462 /* Build configuration list for PBXNativeTarget "OderYourFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60038052BA34F6D006C8462 /* Debug */,
+				C60038062BA34F6D006C8462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C60037E32BA34F6D006C8462 /* OderYourFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C60037E42BA34F6D006C8462 /* OderYourFood.xcdatamodel */,
+			);
+			currentVersion = C60037E42BA34F6D006C8462 /* OderYourFood.xcdatamodel */;
+			path = OderYourFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C60037CD2BA34F6C006C8462 /* Project object */;
+}
