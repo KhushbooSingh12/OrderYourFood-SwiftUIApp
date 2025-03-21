@@ -10,11 +10,11 @@ import SwiftUI
 @main
 struct OderYourFoodApp: App {
     let persistenceController = PersistenceController.shared
+    var order = Order()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            AppetizerTabView().environmentObject(order)
         }
     }
 }
